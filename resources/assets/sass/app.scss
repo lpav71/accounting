@@ -1,0 +1,150 @@
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//Font-Awesome
+@import '~font-awesome/css/font-awesome.css';
+//MetisMenu
+@import '~metismenu/dist/metisMenu.min.css';
+//TimePicker
+@import '~timepicker/jquery.timepicker.css';
+//Bootstrap-editable
+@import 'vendor/x-editable/bootstrap4-editable/bootstrap-editable.css';
+//Bootstrap-select
+@import '~bootstrap-select/sass/bootstrap-select';
+@import '~ajax-bootstrap-select/dist/css/ajax-bootstrap-select.css';
+//Summernote
+@import '~codemirror/lib/codemirror.css';
+@import '~summernote/dist/summernote.css';
+@import '~summernote/dist/summernote-bs4.css';
+//Suggestions
+@import '~suggestions-jquery/dist/css/suggestions.css';
+//Chart
+@import '~chart.js/dist/Chart.css';
+/****** _common *****/
+//Mixins
+@import '_common/_styles/mixins';
+//Layout
+@import '_common/_styles/layout';
+//Logo
+@import '_common/logo/logo';
+//Table
+@import '_common/_styles/table-responsive';
+/******* app *******/
+@import 'app/app';
+//Header
+@import 'app/_common/header/header';
+@import 'app/_common/header/collapse/collapse';
+@import 'app/_common/header/nav/nav';
+@import 'app/_common/header/nav/profile/profile';
+//Footer
+@import 'app/_common/footer/footer';
+//Modals
+@import 'app/_common/modals/modals';
+//Sidebar
+@import 'app/_common/sidebar/sidebar';
+@import 'app/_common/sidebar/header/header';
+/******* auth *******/
+@import 'auth/auth';
+//fileinput
+@import '~bootstrap-fileinput/css/fileinput.min.css';
+
+.hidden {
+  display: none;
+}
+
+table.order-table {
+  .btn-sm {
+    font-size: 12px;
+    padding: 0 2px;
+    i {
+      margin: 0 5px;
+    }
+  }
+  .search-input {
+    font-size: 12px;
+    line-height: 1.15rem;
+    padding: 4px 2px;
+  }
+}
+
+table.hover-table {
+  tbody>tr:hover{
+    filter: brightness(90%);
+  }
+  a:hover{
+    filter: brightness(85%);
+    text-decoration: none;
+  }
+}
+
+.dropdown-menu {
+  .dropdown-item.selected {
+    .text-muted {
+      color: lightgrey !important;
+    }
+  }
+}
+
+.certificate-number, .empty-td {
+  display: none;
+}
+
+.small {
+  &-1{
+    font-size: 75%;
+    font-weight: 400;
+  }
+  &-2{
+    font-size: 70%;
+    font-weight: 400;
+  }
+  &-3{
+    font-size: 65%;
+    font-weight: 400;
+  }
+  &-4{
+    font-size: 60%;
+    font-weight: 400;
+  }
+  &-5{
+    font-size: 55%;
+    font-weight: 400;
+  }
+}
+
+.text-wrap {
+  white-space: normal;
+}
+
+.w-min-100 {
+  min-width: 100% !important;
+}
+
+.icon-arrow-right {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  &:before {
+    content: "\F061";
+  }
+}
+
+.icon-arrow-left {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  &:before {
+    content: "\F060";
+  }
+}
+
+.change-position-block {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}

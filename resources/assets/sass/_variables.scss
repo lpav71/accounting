@@ -1,0 +1,65 @@
+// Body
+$body-bg: #f5f8fa;
+
+// Typography
+$font-family-sans-serif: sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// --------------------------------
+//         MODULAR ADMIN
+// --------------------------------
+
+// Colors
+$color-primary: #85CE36 !default;
+
+$color-divider: #d7dde4 !default;
+$color-bg: #f0f3f6 !default;
+
+$color-text: #4f5f6f !default;
+$color-text-light: #7e8e9f !default;
+$color-text-inverse: #ffffff !default;
+
+/******** Common Element **********/
+// Header
+$header-height: 70px !default;
+$header-height-xs: 50px !default;
+
+// Sidebar
+$sidebar-width: 180px !default;
+
+// Footer
+$footer-height: 25px !default;
+
+$sidebar-color-primary: darken(#4f5f6f, 10%) !default;
+$sidebar-color-secondary: darken($sidebar-color-primary, 6%) !default;
+
+$sidebar-color-text: fade-out($color-text-inverse, 0.5) !default;
+$sidebar-color-text-active: $color-text-inverse;
+
+// Dropdowns
+$dropdown-color-border: fade-out($color-text-light, 0.9) !default;
+$dropdown-link-hover-color-bg: #f5f5f5 !default;
+
+// Content
+$content-padding-x-xl: 20px !default;
+$content-padding-y-xl: 20px !default;
+
+$content-padding-x-lg: 20px !default;
+$content-padding-y-lg: 20px !default;
+
+$content-padding-x-md: 20px !default;
+$content-padding-y-md: 20px !default;
+
+$content-padding-x-sm: 10px !default;
+$content-padding-y-sm: 10px !default;
+
+$content-padding-x-xs: 10px !default;
+$content-padding-y-xs: 10px !default;
+
+// Card
+$card-padding-x: 15px !default;
+$card-padding-x-xl: 20px !default;
+$card-padding-x-sm: 10px !default;
+
+$card-margin-bottom: 10px;

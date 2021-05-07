@@ -1,0 +1,1 @@
+<i class="fa @if ($isActive) fa-check text-success @else fa-close @endif"></i>

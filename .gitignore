@@ -1,0 +1,43 @@
+
+### Composer ###
+composer.phar
+/vendor/
+
+### Laravel ###
+/node_modules/
+npm-debug.log
+/public/storage/
+/public/hot/
+/storage/*.key
+/.vagrant/
+.env.*.php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
+
+## laravel-ide-helper
+/_ide_helper*
+/.phpstorm*
+
+### PhpStorm ###
+
+/.idea/
+
+### VScode ###
+.vscode
+
+
+## File-based project format:
+*.iws
+
+# mpeltonen/sbt-idea plugin
+/.idea_modules/
+/public/images/uploads/
+/public/
+
+## php artisan storage:link ##
+public/storage
+/tlg.bat
+/Tests/
+.DS_Store

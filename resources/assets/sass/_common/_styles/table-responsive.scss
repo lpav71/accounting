@@ -1,0 +1,27 @@
+@media screen and (max-width: 970px) {
+  .table--responsive {
+    thead {
+      display: none;
+    }
+    tr {
+      flex-direction: row;
+      border: none;
+    }
+    td {
+      display: block;
+      padding: 0.5em;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+      background: #fff;
+      &:not(.not-head):before {
+        font-weight: bold;
+        display: block;
+        padding: 0.5em;
+        content: attr(area-label);
+        text-align: left;
+        text-transform: uppercase;
+        background-color: #eee;
+      }
+    }
+  }
+}
